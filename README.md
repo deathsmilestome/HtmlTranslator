@@ -1,7 +1,8 @@
 # HtmlTranslator
 tags safely html file translation
 
-There are two Environment variables in application.yaml
+There are two Environment variables in application.yaml:
+
 $TRANSLATOR_TYPE - translator to use, have default value
 
 $RAPID_APIKEY - API key for service https://rapidapi.com/translated/api/mymemory-translation-memory/
