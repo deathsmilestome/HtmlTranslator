@@ -1,0 +1,16 @@
+ktor:
+  development: true
+  deployment:
+    host: "0.0.0.0"
+    port: "8080"
+  application:
+    modules:
+      - html_translate.ApplicationKt.koin
+      - html_translate.ApplicationKt.controller
+      - html_translate.ApplicationKt.exceptions
+
+translator:
+  type: "$TRANSLATOR_TYPE:memory"
+
+xrapid:
+  api: "$RAPID_APIKEY"

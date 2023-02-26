@@ -1,0 +1,1 @@
+rootProject.name = "html-translate.html-translate"
